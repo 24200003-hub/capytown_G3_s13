@@ -17,7 +17,7 @@ capytown_esan/
 │   ├── square.py                 # Movimiento en cuadrado (Odom antiguo)
 │   ├── calibrate_beff.py         # Calibración antigua del track efectivo
 │   ├── color_imagen1.py          # CONTROLADOR PRINCIPAL + Telemetría y Gráficas
-│    prueba.py                 # CONTROLADOR DE PRUEBA (Versión ligera)
+│   └──prueba.py                  # CONTROLADOR DE PRUEBA (Versión ligera)
 ├── config/
 │   └── wheel_params.yaml         # Parámetros cinemáticos del robot (r, b_eff)
 ├── launch/
