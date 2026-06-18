@@ -11,13 +11,13 @@ El paquete está organizado bajo los estándares nativos de ROS 2:
 ```text
 capytown_esan/
 ├── Presentacion/
-│   ├── Link PPT.txt             # Archivo de inicialización (Vacío)
+│   └── Link PPT.txt              # Archivo de inicialización (Vacío)
 ├── capytown_esan/                # Código fuente del paquete (Módulo Python)
 │   ├── __init__.py               # Archivo de inicialización (Vacío)
 │   ├── square.py                 # Movimiento en cuadrado (Odom antiguo)
 │   ├── calibrate_beff.py         # Calibración antigua del track efectivo
 │   ├── color_imagen1.py          # CONTROLADOR PRINCIPAL + Telemetría y Gráficas
-│   └── prueba.py                 # CONTROLADOR DE PRUEBA (Versión ligera)
+│    prueba.py                 # CONTROLADOR DE PRUEBA (Versión ligera)
 ├── config/
 │   └── wheel_params.yaml         # Parámetros cinemáticos del robot (r, b_eff)
 ├── launch/
