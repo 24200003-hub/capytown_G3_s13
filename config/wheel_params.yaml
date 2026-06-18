@@ -1,0 +1,17 @@
+# wheel_params.yaml - Parametros del modelo cinematico del Yahboom MicroROS-Pi5
+#
+# wheel_separation (b_eff) es EL parametro que calibras con calibrate_beff.
+# Los valores de abajo son PUNTO DE PARTIDA tipicos; el b_eff final lo defines
+# tras calibrar y lo escribes aqui. Despues de cambiarlo, RELANZA el bringup.
+#
+# OJO: verifica que la odometria del robot REALMENTE lea este archivo. En algunos
+# Yahboom la odometria se calcula en el firmware del ESP32; si ese es el caso,
+# cambiar este YAML no afecta la odometria y hay que ajustar donde corresponda.
+
+/**:
+  ros__parameters:
+    wheel_radius: 0.0325          # m  (rueda ~65 mm de diametro)
+    wheel_separation: 0.21107      # m  <- b_eff. CALIBRAR. (~1.4 x ancho fisico)
+    encoder_ticks_per_rev: 1320   # ticks/rev (ajustar al valor real del robot)
+    max_linear_vel: 0.30          # m/s
+    max_angular_vel: 1.50         # rad/s
