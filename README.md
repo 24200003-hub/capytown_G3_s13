@@ -1,6 +1,6 @@
 # capytown_esan — Reto de Visión Artificial (Seguidor de Carril)
 
-Paquete de ROS 2 (Humble, ament_python) desarrollado para el robot Yahboom MicroROS-Pi5**. Este paquete implementa un algoritmo de visión artificial basado en segmentación de colores HSV y un controlador Proporcional-Derivativo (PD) para asegurar que el robot identifique y siga un circuito delimitado por líneas amarillas y blancas sin salirse del carril.
+Paquete de ROS 2 (Humble, `ament_python`) desarrollado para el robot **Yahboom MicroROS-Pi5**. Este paquete implementa un algoritmo de visión artificial basado en segmentación de colores HSV y un controlador Proporcional-Derivativo (PD) para asegurar que el robot identifique y siga un circuito delimitado por líneas amarillas y blancas sin salirse del carril.
 
 ---
 
@@ -8,6 +8,7 @@ Paquete de ROS 2 (Humble, ament_python) desarrollado para el robot Yahboom Micro
 
 El paquete está organizado bajo los estándares nativos de ROS 2:
 
+```text
 capytown_esan/
 ├── capytown_esan/                # Código fuente del paquete (Módulo Python)
 │   ├── __init__.py               # Archivo de inicialización (Vacío)
@@ -25,6 +26,7 @@ capytown_esan/
 ├── package.xml                   # Declaración de dependencias (OpenCV, Matplotlib)
 ├── setup.cfg                     # Configuración de instalación de scripts
 └── README.md                     # Documentación general del proyecto (Este archivo)
+```
 
 ## 2. Requisitos del Sistema y Dependencias
 
